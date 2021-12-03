@@ -8,17 +8,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/4eb46fdbf0.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <script 
+    src="https://kit.fontawesome.com/4eb46fdbf0.js" crossorigin="anonymous"></script>
+    <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="js/education.js"></script>
+    <script type="text/javascript" src="js/project.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/work.js"></script>
     <main>
-
-      <!-- <div class="menu-bar">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <input class="search" type="text" placeholder="Search..">
-      </div> -->
 
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <div class="headingtext">
@@ -31,43 +34,19 @@
         <div class="content-wrap">
           <img src="images/Vandyck_Laptop.png" alt="Vandyck Lai and his laptop">
           <h2>Information Technology (IT) Student</h2>
-          <h3>There is something over the horizon, reach for it!</h3>
-          <p>Throughout my studies, I participated in talks, workshops and competitions. I
-          had led multiple school / self-paced projects and events. Currently, I am working closely with the university IT system as a CTI R&D member. I had learnt the programming, data analysis, UX/UI design, cybersecurity, graphic design and web design. These skills can assist me to create a website, applications, data management and also image / video / documents / slides.</p>
+          <h3 id="profile-quote">There is something over the horizon, reach for it!</h3>
+          <p id="description">&emsp;Throughout my studies, I participated in talks, workshops and competitions. I
+          had led multiple school / self-paced projects and events. 
+          Currently, I am working closely with the university IT system as a CTI R&D student developer. 
+          Programming is my passion and I am interested in IT fields such as Machine Learning, Data Analysis, Web Development, App Development and Multimedia Technology.</p>
         </div>
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="projects">
-        <div class="content-wrap divider">
+        <div class="content-wrap divider project-div">
           <h2>Top 3 Projects</h2>
           <p> More information on projects can be found at <a href="https://www.linkedin.com/in/lai-kai-yong/#accomplishments-projects">LinkedIn &gt; Projects</a>.</p>
-
-          <!-- Project 1 -->
-          <section class="project-item">
-            <video src="images/Lai Kai Yong _ Resume.mp4" alt="Vandyck Lai Resume Project" controls></video>
-            <h3>Vandyck Lai Online Resume</h3>
-            <p>This is an online portfolio / resume created by using HTML5 and CSS3 which is hosted by Github Web Hosting Server</p>
-            <a class="btn" href="https://github.com/vandycklai/vandycklai.github.io" target="_blank">View project</a>
-            <a class="btn" href="https://vandycklai.github.io" target="_blank">Link to page</a>
-          </section>
-
-          <!-- Project 2 -->
-          <section class="project-item">
-            <video src="images/Linktree _ Vandyck Lai Kai Yong.mp4" controls alt="Vandyck Lai Linktree Project"></video>
-            <h3>Vandyck Linktree Page</h3>
-            <p>This is a linktree created by using HTML5 and CSS3 which is hosted by Github Web Hosting Server</p>
-            <a class="btn" href="https://github.com/Laikaiyong/vandyck_lai.github.io" target="_blank">View project</a>
-            <a class="btn" href="https://laikaiyong.github.io/vandyck_lai.github.io/">Link to page</a>
-          </section>
-
-          <!--Project 3-->
-          <section class="project-item">
-            <video src="images/Password_Generator.mp4" controls alt="Vandyck Password Generator"></video>
-            <h3>Password Generator</h3>
-            <p>This is a password generator written in Python with a simple validation in the end of the program.</p>
-            <a class="btn" href="https://github.com/Laikaiyong/vandyck.Password_Generator.Basic" target="_blank">View project</a>
-          </section>
           <!-- End of Project block. -->
         </div>
       </section>
@@ -75,105 +54,18 @@
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
 
       <section class="work">
-        <div class="content-wrap item-details divider">
-          <h2>Work Experience</h2>
+        <div class="content-wrap item-details divider job-div">
+          <h2>Latest Work Experience</h2>
           <p> More information on career experience can be found at <a href="https://www.linkedin.com/in/lai-kai-yong/#experience">LinkedIn &gt; Experience</a>.</p>
-    
-          <!-- Job 1 -->
-          <section class="job-item">
-            <div class="job-details">
-              <h3>CTI Research & Development Part-time Trainee</h3>
-              <p>Asia Pacific University of Technology and Innovation (APU / APIIT)</p>
-              <p>24/03/2021 ~ Present</p>
-            </div>
-            <div class="job-summary">
-              <p>In CTI, I am working on web development and email development mostly on the front-end part.</p>
-              <p>Responsibilities:</p>
-              <ul>
-                <li>HTML Email</li>
-                <!-- <li>Created...</li>
-                <li>Lead...</li>
-                <li>Responsible for...</li> -->
-              </ul>
-            </div>
-          </section>
-    
-          <!-- Job 2 -->
-          <section class="job-item">
-            <div class="job-details">
-              <h3>Part-time Writer</h3>
-              <p>MOpress.io @ Tan Tan News</p>
-              <p>20/01/2021 ~ Present</p>
-            </div>
-            <div class="job-summary">
-              <p>Writing mandarin articles, blogs and advertisements to be published in Tan Tan News online.</p>
-              <p>Responsibilities:</p>
-              <ul>
-                <li>Viral news blog writing</li>
-                <li>Entertainment articles writing</li>
-                <li>Foodie tips writing</li>
-                <li>Restaurants advertisements writing</li>
-              </ul>
-            </div>
-          </section>
-
-          <!-- Job 3 -->
-          <section class="job-item">
-            <div class="job-details">
-              <h3>Part-time Office Worker</h3>
-              <p>Ecole De Patisserie School of Culinary Arts and Pastry</p>
-              <p>01/11/2018 ~ 27/12/2018</p>
-            </div>
-            <div class="job-summary">
-              <p>Helping the school after culinary lessons in the morning.</p>
-              <p>Responsibilities:</p>
-              <ul>
-                <li>Students' data</li>
-                <li>Facebook advertising</li>
-                <li>Facebook marketing strategy</li>
-                <li>School System's data cleaning</li>
-              </ul>
-            </div>
-          </section>
           <!-- End of Job block. -->
         </div>
       </section>
       
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
       <section class="education">
-        <div class="content-wrap item-details">
+        <div class="content-wrap item-details edu-div">
           <h2>Education</h2>
-
-          <!-- Copy this whole <section> block to add more schools. -->
-          <section>
-            <h3>Asia Pacific University of Technology and Innovation (APU / APIIT)</h3>
-            <p>Diploma in ICT Specialism in Data Informatics </p>
-            <p>GPA : 3.93</p>
-          </section>
-
-          <section>
-            <h3>SMK Chung Hwa Wei Sin</h3>
-            <p>Form 5 Secondary School / High School</p>
-            <p>SPM: 9A 1B+</p>
-          </section>
-
-          <section>
-            <h3>Ecole De Patisserie School of Culinary Arts and Pastry</h3>
-            <p>1 Month Culinary Course</p>
-            <p>Culinary Learning</p>
-          </section>
-
-          <section>
-            <h3>AFS Intercultural Programs</h3>
-            <p>AFS Intensive Program to Japan (IPlsNH17) </p>
-            <p>Exchange student experience</p>
-          </section>
-
-          <section>
-            <h3>I.C. Nagoya Japanese Language School</h3>
-            <p>Certificate in AFS Winter Intensive Course Japanese Language Program </p>
-            <p>Japanese Speaking, Writing, Reading</p>
-          </section>
+          <p>For more information on education can be found at <a href="https://www.linkedin.com/in/lai-kai-yong/#education">LinkedIn &gt; Education</a>.</p>
           <!-- End of School block. -->
         </div>
       </section>
@@ -185,12 +77,12 @@
 
           <!-- Social media and contact links. Add or remove any networks. -->
           <ul class="contact-list">
-            <li><a href="mailto:vandycklai@gmail.com"><i class="fas fa-envelope"></i>Mail</a></li>
-            <li><a href="tel:0129812215" target="_blank"><i class="fas fa-phone"></i>Phone</a></li>
-            <li><a href="https://www.linkedin.com/in/lai-kai-yong" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
-            <li><a href="https://www.instagram.com/vandyck.lai/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
-            <li><a href="https://www.facebook.com/vandycklaikaiyong8/" target="_blank"><i class="fab fa-facebook"></i>Facebook</a></li>
-            <li><a href="https://discord.com/users/753936966038323260" target="_blank"><i class="fab fa-discord"></i>Discord</a></li>
+            <li><a href="mailto:vandycklai@gmail.com"><i class="fas fa-envelope"></i></a></li>
+            <li><a href="tel:0129812215" target="_blank"><i class="fas fa-phone"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/lai-kai-yong" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/vandyck.lai/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/vandycklaikaiyong8/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://discord.com/users/753936966038323260" target="_blank"><i class="fab fa-discord"></i></a></li>
           </ul>
         </div>
       </footer>

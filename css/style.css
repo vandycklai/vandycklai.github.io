@@ -64,6 +64,7 @@ h1, h2 {
 }
 
 h2, h3 {
+    margin-top: 10px;
     color: #D6AF34;
 }
 
@@ -140,6 +141,7 @@ h2, h3 {
     font-size: 35px;
     vertical-align: middle;
     line-height: 45px;
+    display: none;
 }
 
 /* Profile
@@ -157,7 +159,13 @@ header > div >img{
     width: 100%
 }
 
-header > div > h3, header > div > p {
+#profile-quote {
+    color: #FFF;
+}
+
+#description {
+    text-align: justify;
+    text-justify: inter-word;
     color: #FFF;
 }
 
@@ -166,6 +174,7 @@ header > div > h3, header > div > p {
 .projects{
     background-color: #F5DDDD;
     color: #0F0A0A;
+    padding-bottom: 50px;
 }
 
 .projects .btn {
@@ -175,10 +184,22 @@ header > div > h3, header > div > p {
     padding: 8px;
     border: 3px ridge #D6AF34;
     display: inline-block;
+    margin: 7px;
 }
 
 .projects .btn:hover{
     background: rgba(214, 175, 52, 80%)
+}
+
+.projects p {
+    text-align: justify;
+    text-justify: inter-word;
+    color: #0F0A0A;
+}
+
+.project-img{
+    width: 100%;
+    margin-bottom: 40px;
 }
 
 .project-item {
@@ -198,18 +219,16 @@ header > div > h3, header > div > p {
         rgba(245,221,221, 0.85),
         rgba(245,221,221, 0.85)
     ),
-    url(../images/amy-hirschi-szrJ3wjzOMg-unsplash.jpg);
+    url(../images/workBackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: #0F0A0A;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 
 .job-item{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
+    display: flexbox;
 }
 
 
@@ -222,11 +241,16 @@ header > div > h3, header > div > p {
     padding-bottom: 100px;
 }
 
+.education-firm {
+    margin-top: 30px;
+}
+
 /* Contact
 ---------------------------*/
 
 footer{
     background-color: #0F0A0A;
+    text-align: center;
 }
 
 a :focus {
@@ -236,16 +260,17 @@ a :focus {
 .contact-list{
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-list a{
     padding: 15px;
-    display: inline-block;
     font-size: 18px;
 }
 
 .fab, .fas{
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 10px;
 }
 
@@ -253,17 +278,17 @@ a :focus {
 -------------------*/
 
 @media screen and (min-width: 750px){
-
+/* 
     body{
         font-size: 18px;
-    }
+    } */
 
     header, footer {
         text-align: center;
     }
-    h2{
+    /* h2{
         font-size: 35px;
-    }
+    } */
     .content-wrap{
         width: 750px;
         margin: 0 auto;
@@ -276,21 +301,20 @@ a :focus {
     }
     
     .headingtext h1{
-        font-size: 50px;
+        /* font-size: 50px; */
+        display: initial;
     }
 
     .project-item img{
         float:left;
         margin-right: 20px;
+        width: 60%;
     }    
-
-    .project-item video{
-        
-    }
-
-    .contact-list{
-        display: flex;
-        justify-content: center;
+    
+    .job-item{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
     }
   
 }
