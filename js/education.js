@@ -1,8 +1,13 @@
 let education = [
     {
+        Title: "Asia Pacific University of Technology and Innovation (APU / APIIT) X De Monfort University (DMU)",
+        Program: "Bachelor Science in Software Engineering",
+        Description: "-",
+    },
+    {
         Title: "Asia Pacific University of Technology and Innovation (APU / APIIT)",
         Program: "Diploma in ICT Specialism in Data Informatics",
-        Description: "GPA : 3.95",
+        Description: "CGPA : 3.94",
     },
     {
         Title: "SMK Chung Hwa Wei Sin",

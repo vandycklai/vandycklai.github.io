@@ -1,17 +1,30 @@
 let job = [
     {
-        Title: "CTI Research & Development Part-time Student Developer",
+        Title: "Jira Administrator | Team Lead | Developer",
         Company: "Asia Pacific University of Technology and Innovation (APU / APIIT)",
         Date: "24/03/2021 ~ Present",
         Description: "For student by student. In CTI, I am working as a student developer in providing the best user experience to the university members.",
         Responsibilities: [
             "HTML email template",
-            "Jira Administration",
+            "Jira Administration & Configuration",
             "Confluence Documentation",
             "Icon/Banner Digital Art Design",
             "Chatbot",
             "AWS SDK Integration",
             "Restful API",
+        ]
+    },
+    {
+        Title: "Software Engineering Intern",
+        Company: "Infront Consulting APAC",
+        Date: "16/05/2022 ~ Present",
+        Description: "Responsible in developing solutions to client including web, app and data engineering task",
+        Responsibilities: [
+            "Cof'e Covid Prescreening website",
+            "Ladang Pintar Web + Mobile Development",
+            "Report Data Table Generation",
+            "Daily Stnadup Scrum Practice",
+            "Client Meeting",
         ]
     },
     {
@@ -25,18 +38,6 @@ let job = [
             "Daily Classes Handling",
             "Trainer Cubie Documentation",
             "ERD Description",
-        ]
-    },
-    {
-        Title: "Blog Writer Part-time",
-        Company: "MOpress.io @ Tan Tan News",
-        Date: "20/01/2021 ~ 31/08/2021",
-        Description: "Expose the world on latest information with my words. I wrote chinese articles, blogs and advertisements to be published in Tan Tan News online.",
-        Responsibilities: [
-            "Viral news blog writing",
-            "Entertainment articles writing",
-            "Foodie tips writing",
-            "Restaurants advertisements writing",
         ]
     }
 ]
