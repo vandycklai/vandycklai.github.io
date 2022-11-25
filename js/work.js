@@ -23,7 +23,7 @@ let job = [
             "Cof'e Covid Prescreening website",
             "Ladang Pintar Web + Mobile Development",
             "Report Data Table Generation",
-            "Daily Stnadup Scrum Practice",
+            "Daily Standup Scrum Practice",
             "Client Meeting",
         ]
     },

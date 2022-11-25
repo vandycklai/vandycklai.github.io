@@ -1,0 +1,320 @@
+/*
+COLOR PALLETTE
+#D6AF34 Gold Metalic
+#FFFFFF White
+#F5DDDD Misty Rose
+#6D6975 Old Lavender
+#0F0A0A Smoky Black
+*/
+
+/* Global styles
+---------------------------*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: Roboto Slab, serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+    width: 300px;
+}
+
+video{
+    width: 100%;
+}
+
+a {
+    color: #D6AF34;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h1, h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+h2, h3 {
+    margin-top: 10px;
+    color: #D6AF34;
+}
+
+.item-details h3 {
+    margin-bottom: 0;
+}
+
+.item-details h3 + p {
+    font-style: italic;
+}
+
+.item-details h3 ~ p {
+    margin: 0;
+}
+
+.content-wrap{
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 10px;
+}
+
+.divider > section{
+    border-bottom: 1px dashed;
+    padding: 25px 0;
+}
+
+.divider > section:last-of-type{
+    border-bottom: none;
+}
+
+/* Menu bar
+---------------------*/
+
+/* .menu-bar{
+    margin: 0;
+    padding: 10px;
+    background-color: #0F0A0A; 
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    text-align: center;
+} */
+
+/* .search{
+    background-color: #0F0A0A;
+    color: #FFF;
+} */
+
+/* Heading running text
+-----------------------*/
+
+.headingtext{
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #0F0A0A;
+    color: #D6AF34;
+    text-align: center;
+    z-index: 4;
+}
+
+.headingtext img{
+    min-height: 75px;
+    max-height: 100px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headingtext h1{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 35px;
+    vertical-align: middle;
+    line-height: 45px;
+    display: none;
+}
+
+/* Profile
+---------------------------*/
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #0F0A0A;
+    color: #D6AF34;
+    text-align: center;
+}
+
+header > div >img{
+    width: 100%
+}
+
+#profile-quote {
+    color: #FFF;
+}
+
+#description {
+    text-align: justify;
+    text-justify: inter-word;
+    color: #FFF;
+}
+
+/* Projects
+---------------------------*/
+.projects{
+    background-color: #F5DDDD;
+    color: #0F0A0A;
+    padding-bottom: 50px;
+}
+
+.projects .btn {
+    color: #FFF;
+    background-color: #0F0A0A;
+    text-decoration: none;
+    padding: 8px;
+    border: 3px ridge #D6AF34;
+    display: inline-block;
+    margin: 7px;
+}
+
+.projects .btn:hover{
+    background: rgba(214, 175, 52, 80%)
+}
+
+.projects p {
+    text-align: justify;
+    text-justify: inter-word;
+    color: #0F0A0A;
+}
+
+.project-img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.project-item {
+    overflow: hidden;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+/* Work Experience
+---------------------------*/
+
+.work{
+    background-image: 
+    linear-gradient(
+        rgba(245,221,221, 0.85),
+        rgba(245,221,221, 0.85)
+    ),
+    url(../images/workBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #0F0A0A;
+    padding-bottom: 50px;
+}
+
+
+.job-item{
+    display: flexbox;
+}
+
+
+/* Education
+---------------------------*/
+
+.education{
+    background-color: #6D6975;
+    color: #FFF;
+    padding-bottom: 100px;
+}
+
+.education-firm {
+    margin-top: 30px;
+}
+
+/* Contact
+---------------------------*/
+
+footer{
+    background-color: #0F0A0A;
+    text-align: center;
+}
+
+a :focus {
+    outline: 1px solid yellow;
+}
+
+.contact-list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a{
+    padding: 15px;
+    font-size: 18px;
+}
+
+.fab, .fas{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+/* Responsive
+-------------------*/
+
+@media screen and (min-width: 750px){
+/* 
+    body{
+        font-size: 18px;
+    } */
+
+    header, footer {
+        text-align: center;
+    }
+    /* h2{
+        font-size: 35px;
+    } */
+    .content-wrap{
+        width: 750px;
+        margin: 0 auto;
+        padding: 40px 10px;
+    }
+    
+    .headingtext img{
+        min-height: 100px;
+        max-height: 150px;
+    }
+    
+    .headingtext h1{
+        /* font-size: 50px; */
+        display: initial;
+    }
+
+    .project-item img{
+        float:left;
+        margin-right: 20px;
+        width: 60%;
+    }    
+    
+    .job-item{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
+  
+}
